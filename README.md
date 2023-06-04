@@ -10,3 +10,5 @@ sudo apt install samba
 ```
 whereis samba
 ```
+
+### Setting up Samba
