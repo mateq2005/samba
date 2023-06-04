@@ -38,3 +38,7 @@ sudo service smbd restart
 ```
 
 ### Setting up User Accounts and Connecting to Share
+
+```
+sudo smbpasswd -a username
+```
