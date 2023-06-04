@@ -1,1 +1,3 @@
-# samba
+# Samba
+
+### Installing Samba
