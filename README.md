@@ -43,3 +43,5 @@ sudo service smbd restart
 sudo adduser username
 sudo smbpasswd -a username
 ```
+
+<img src="smb.png">
