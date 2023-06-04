@@ -8,6 +8,10 @@ sudo apt install samba
 ```
 
 ```
+sudo ufw allow samba
+```
+
+```
 whereis samba
 ```
 
