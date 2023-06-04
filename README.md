@@ -32,3 +32,7 @@ sudo nano /etc/samba/smb.conf
     read only = no
     browsable = yes
 ```
+
+```
+sudo service smbd restart
+```
