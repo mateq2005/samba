@@ -49,9 +49,9 @@ sudo nano /etc/samba/smb.conf
 ```
 
 ```
-[sambashare]
+[username]
     comment = Samba for username 
-    path = /home/username/sambashare
+    path = /home/username/
     writable = yes
     read only = no
     browsable = yes
