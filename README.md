@@ -17,6 +17,7 @@ whereis samba
 
 ### Setting up Samba
 
+*Specific User*
 ```
 mkdir /home/username/sambashare/
 chmod 777 /home/username/sambashare/
