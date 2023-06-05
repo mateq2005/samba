@@ -90,7 +90,3 @@ sudo nano /etc/samba/smb.conf
 ```
 sudo service smbd restart
 ```
-
-### 4. Connecting to Share
-
-<img src="smb.png">
