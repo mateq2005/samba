@@ -37,14 +37,14 @@ sudo nano /etc/samba/smb.conf
 ```
 
 ```
-sudo service smbd restart
-```
-
-
-
-```
 sudo adduser username
 sudo smbpasswd -a username
+```
+
+### Resetting Samba
+
+```
+sudo service smbd restart
 ```
 
 ### Connecting to Share
