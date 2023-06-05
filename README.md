@@ -1,6 +1,6 @@
 # Samba
 
-### Installing Samba
+### 1. Installing Samba
 
 ```
 sudo apt update
@@ -15,7 +15,7 @@ sudo ufw allow samba
 whereis samba
 ```
 
-### Setting up Samba
+### 2. Setting up Samba
 
 **Specific User**
 ```
