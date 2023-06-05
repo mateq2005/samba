@@ -17,7 +17,7 @@ whereis samba
 
 ### Setting up Samba
 
-*Specific User*
+**Specific User**
 ```
 mkdir /home/username/sambashare/
 chmod 777 /home/username/sambashare/
@@ -40,11 +40,13 @@ sudo nano /etc/samba/smb.conf
 sudo service smbd restart
 ```
 
-### Setting up User Accounts and Connecting to Share
+
 
 ```
 sudo adduser username
 sudo smbpasswd -a username
 ```
+
+### Connecting to Share
 
 <img src="smb.png">
