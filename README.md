@@ -90,5 +90,3 @@ sudo nano /etc/samba/smb.conf
 ```
 sudo service smbd restart
 ```
-
-OK
