@@ -25,6 +25,17 @@ chowown nobody:group /home/resources/
 ```
 
 ```
+[resources]
+    comment = Samba for everyone 
+    path = /home/resources 
+    writable = yes
+    read only = no
+    browsable = yes
+    valid users = username
+    quest ok = no
+```
+
+```
 sudo nano /etc/samba/smb.conf
 ```
 
