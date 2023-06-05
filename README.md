@@ -32,6 +32,7 @@ sudo nano /etc/samba/smb.conf
 [sambashare]
     comment = Samba on Ubuntu
     path = /home/username/sambashare
+    writable = yes
     read only = no
     browsable = yes
 ```
