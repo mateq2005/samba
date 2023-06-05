@@ -29,10 +29,8 @@ chowown nobody:group /home/resources/
     comment = Samba for everyone 
     path = /home/resources 
     writable = yes
-    read only = no
     browsable = yes
-    valid users = username
-    quest ok = no
+    quest ok = yes
 ```
 
 ```
