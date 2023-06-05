@@ -39,9 +39,9 @@ sudo nano /etc/samba/smb.conf
 
 **Specific User**
 ```
-mkdir /home/username/sambashare/
-chmod 777 /home/username/sambashare/
-chowown username /home/username/sambashare/
+mkdir /home/username/
+chmod 777 /home/username/
+chowown username /home/username/
 ```
 
 ```
