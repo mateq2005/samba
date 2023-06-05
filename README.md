@@ -17,6 +17,8 @@ whereis samba
 
 ### 2. Setting up Samba
 
+**Anonymous Directory**
+
 **Specific User**
 ```
 mkdir /home/username/sambashare/
