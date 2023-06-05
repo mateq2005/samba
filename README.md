@@ -24,6 +24,10 @@ chmod 777 /home/resources/
 chowown nobody:group /home/resources/
 ```
 
+```
+sudo nano /etc/samba/smb.conf
+```
+
 **Specific User**
 ```
 mkdir /home/username/sambashare/
