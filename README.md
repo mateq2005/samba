@@ -31,7 +31,7 @@ sudo nano /etc/samba/smb.conf
 ```
 [resources]
     comment = Samba for everyone 
-    path = /home/resources 
+    path = /home/resources/
     writable = yes
     browsable = yes
     quest ok = yes
