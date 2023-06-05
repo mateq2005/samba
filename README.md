@@ -21,7 +21,7 @@ whereis samba
 ```
 mkdir /home/resources/
 chmod 777 /home/resources/
-chowown nobody:group /home/resources/
+chowown nobody:nogroup /home/resources/
 ```
 
 ```
@@ -62,6 +62,27 @@ sudo nano /etc/samba/smb.conf
 ```
 sudo adduser username
 sudo smbpasswd -a username
+```
+
+**Specific Group**
+```
+mkdir /home/group/
+chmod 777 /home/group/
+chowown nobody:group /home/group/
+```
+
+```
+sudo nano /etc/samba/smb.conf
+```
+
+```
+[group]
+    comment = Samba for group 
+    path = /home/group 
+    writable = yes
+    browsable = yes
+    quest ok = no
+    valid users = @group
 ```
 
 ### 3. Resetting Samba
