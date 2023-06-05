@@ -41,12 +41,12 @@ sudo adduser username
 sudo smbpasswd -a username
 ```
 
-### Resetting Samba
+### 3. Resetting Samba
 
 ```
 sudo service smbd restart
 ```
 
-### Connecting to Share
+### 4. Connecting to Share
 
 <img src="smb.png">
