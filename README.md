@@ -35,6 +35,8 @@ sudo nano /etc/samba/smb.conf
     writable = yes
     read only = no
     browsable = yes
+    valid users = username
+    quest ok = no
 ```
 
 ```
