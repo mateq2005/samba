@@ -30,7 +30,7 @@ sudo nano /etc/samba/smb.conf
 
 ```
 [sambashare]
-    comment = Samba on Ubuntu
+    comment = Samba for username 
     path = /home/username/sambashare
     writable = yes
     read only = no
