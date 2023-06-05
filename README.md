@@ -78,7 +78,7 @@ sudo nano /etc/samba/smb.conf
 ```
 [group]
     comment = Samba for group 
-    path = /home/group 
+    path = /home/group/
     writable = yes
     browsable = yes
     quest ok = no
