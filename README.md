@@ -18,6 +18,9 @@ whereis samba
 ### 2. Setting up Samba
 
 **Anonymous Directory**
+mkdir /home/resources/
+chmod 777 /home/resources/
+chowown nobody:group /home/resources/
 
 **Specific User**
 ```
