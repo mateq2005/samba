@@ -21,7 +21,7 @@ whereis samba
 ```
 mkdir /home/username/sambashare/
 chmod 777 /home/username/sambashare/
-chowown nobody:nogroup /home/username/sambashare/
+chowown username /home/username/sambashare/
 ```
 
 ```
