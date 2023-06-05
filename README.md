@@ -19,6 +19,7 @@ whereis samba
 
 ```
 mkdir /home/username/sambashare/
+chmod 777 /home/username/sambashare/
 ```
 
 ```
