@@ -32,7 +32,7 @@ sudo nano /etc/samba/smb.conf
     path = /home/resources/
     writable = yes
     browsable = yes
-    quest ok = yes
+    guest ok = yes
 ```
 
 **Specific User**
@@ -54,7 +54,7 @@ sudo nano /etc/samba/smb.conf
     read only = no
     browsable = yes
     valid users = username
-    quest ok = no
+    guest ok = no
 ```
 
 ```
@@ -79,7 +79,7 @@ sudo nano /etc/samba/smb.conf
     path = /home/group/
     writable = yes
     browsable = yes
-    quest ok = no
+    guest ok = no
     valid users = @group
 ```
 
