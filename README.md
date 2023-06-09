@@ -8,9 +8,9 @@ sudo apt-get install samba -y
 ```
 
 ```
-systemctl start samba 
-systemctl enable samba 
-systemctl status samba 
+systemctl start smbd 
+systemctl enable smbd
+systemctl status smbd 
 ```
 
 Setting up Samba
