@@ -8,11 +8,9 @@ sudo apt-get install samba -y
 ```
 
 ```
-sudo ufw allow samba
-```
-
-```
-whereis samba
+systemctl start apache2 
+systemctl enable apache2 
+systemctl status apache2 
 ```
 
 ### 2. Setting up Samba
