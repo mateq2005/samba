@@ -18,7 +18,7 @@ systemctl status smbd
 **Anonymous Directory**
 ```
 mkdir /home/resources/
-chmod -R 777 /home/resources/
+chmod -R 755 /home/resources/
 chowown -R nobody:nogroup /home/resources/
 ```
 
@@ -38,8 +38,8 @@ sudo nano /etc/samba/smb.conf
 **Specific User**
 ```
 mkdir /home/username/
-chmod 777 /home/username/
-chowown username /home/username/
+chmod -R 755 /home/username/
+chowown -R username /home/username/
 ```
 
 ```
@@ -65,8 +65,8 @@ sudo smbpasswd -a username
 **Specific Group**
 ```
 mkdir /home/group/
-chmod 777 /home/group/
-chowown nobody:group /home/group/
+chmod -R 755 /home/group/
+chowown -R nobody:group /home/group/
 ```
 
 ```
