@@ -1,10 +1,10 @@
 # Samba
 
-### 1. Installing Samba
+Installing Samba
 
 ```
-sudo apt update
-sudo apt install samba
+sudo apt-get update
+sudo apt-get install samba -y
 ```
 
 ```
