@@ -13,13 +13,13 @@ systemctl enable samba
 systemctl status samba 
 ```
 
-### 2. Setting up Samba
+Setting up Samba
 
 **Anonymous Directory**
 ```
 mkdir /home/resources/
-chmod 777 /home/resources/
-chowown nobody:nogroup /home/resources/
+chmod -R 777 /home/resources/
+chowown -R nobody:nogroup /home/resources/
 ```
 
 ```
@@ -83,7 +83,7 @@ sudo nano /etc/samba/smb.conf
     valid users = @group
 ```
 
-### 3. Resetting Samba
+### Resetting Samba
 
 ```
 sudo service smbd restart
