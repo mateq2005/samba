@@ -86,5 +86,5 @@ sudo nano /etc/samba/smb.conf
 ### Resetting Samba
 
 ```
-sudo service smbd restart
+sudo systemctl restart smbd
 ```
