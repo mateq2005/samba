@@ -88,3 +88,5 @@ sudo nano /etc/samba/smb.conf
 ```
 sudo systemctl restart smbd
 ```
+
+*tested*
