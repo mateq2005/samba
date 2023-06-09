@@ -13,7 +13,7 @@ systemctl enable smbd
 systemctl status smbd 
 ```
 
-Setting up Samba
+### Setting up Samba
 
 **Anonymous Directory**
 ```
